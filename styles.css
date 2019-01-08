@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #000;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -41,6 +41,7 @@ a:hover {
 }
 .nav .name {
   display: none;
+  background: black;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -225,4 +226,41 @@ h3 {
 
 .section-title {
   text-transform: uppercase;
+  text-align: left;
+  margin: 3px;
+  padding-left: 5px;
+}
+
+/* Gallery */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #fff;
+  float: center;
+  width: 340;
+}
+
+div.gallery:hover {
+  border: 1px solid #8d1616;
+}
+
+div.gallery img {
+  width: 440;
+  height: 300px;
+}
+
+div.desc {
+  padding: 2px;
+  text-align: center;
+}
+
+/* Contact form*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #8d1616; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 4px;
+  margin-bottom: 16px; 
+  resize: vertical;
 }
